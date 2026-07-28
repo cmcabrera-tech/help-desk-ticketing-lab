@@ -33,10 +33,12 @@ The environment was created as a hands-on portfolio project for entry-level Help
 flowchart TD
     USER["End Users"] --> PORTAL["osTicket Help Desk"]
     PORTAL --> T1["Tier 1 Support"]
-    T1 -->|Escalation| T2["Tier 2 Support"]
-    PORTAL --> DB["MariaDB"]
-    T1 --> AD["Active Directory Lab"]
-    T2 --> AD
+    T1 -->|Escalation required| T2["Tier 2 Support"]
+    T1 -.->|Account and permission checks| AD["Active Directory Lab"]
+    T2 -.->|Advanced troubleshooting| AD
+    PORTAL --> DB["MariaDB Database"]
+    T1 --> RES["Resolution and User Communication"]
+    T2 --> RES
 ```
 
 | Component | Configuration |
