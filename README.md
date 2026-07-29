@@ -260,7 +260,7 @@ A password-related support request was documented through the complete ticket li
 
 A network connectivity incident was diagnosed at Tier 1 and escalated to Tier 2 when additional troubleshooting was required.
 
-![Tier 1 Network Diagnosis](screenshots/19-network-ticket-tier1-diagnosis.png)
+![Tier 1 Network Diagnosis](screenshots/19-network-ticket-tier1-diagnosis.png.png)
 
 ![Ticket Escalated to Tier 2](screenshots/20-network-ticket-escalated-to-tier2.png)
 
