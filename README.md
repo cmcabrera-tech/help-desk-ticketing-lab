@@ -178,6 +178,8 @@ Each Help Topic was associated with the appropriate department, priority, and SL
 
 ![Shared-folder access ticket resolved](screenshots/23-shared-folder-ticket-resolved.png)
 
+> **Related Lab:** This incident integrates concepts implemented in my [Active Directory Home Lab](https://github.com/cmcabrera-tech/active-directory-home-lab), including security groups, departmental SMB shares, NTFS permissions, and role-based access control.
+
 ## Ticket Workflow Demonstrated
 
 ```mermaid
