@@ -233,7 +233,4 @@ This lab reinforced the importance of structured troubleshooting, accurate inter
 ## Author
 
 **Carlos Cabrera**  
-CompTIA A+ Certified  
-Information Technology Student  
-Aspiring Help Desk / IT Support Specialist
-
+CompTIA A+ Certified | IT Support | Systems Administration
