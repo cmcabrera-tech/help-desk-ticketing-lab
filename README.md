@@ -222,9 +222,55 @@ The documented workflow includes:
 - Hyper-V virtualization
 - Security-conscious credential handling
 
-## Screenshots
+## Evidence
 
-Additional implementation evidence is available in the [`screenshots`](screenshots/) directory. Sensitive credentials and passwords have intentionally been excluded.
+Selected evidence from the deployment, configuration, and operation of the Help Desk environment. The complete set of screenshots is available in the [`screenshots`](screenshots/) directory.
+
+### osTicket Administration
+
+The osTicket Staff Control Panel was successfully deployed and configured for Help Desk administration.
+
+![osTicket Admin Dashboard](screenshots/10-osticket-admin-dashboard.png)
+
+### Help Desk Roles and Agents
+
+Role-based access was configured for Tier 1, Tier 2, and administrative responsibilities.
+
+![Help Desk Roles](screenshots/12-helpdesk-roles-created.png)
+
+![Help Desk Agents](screenshots/13-helpdesk-agents-created.png)
+
+### SLA and Ticket Routing
+
+SLA plans and Help Topics were configured to control response expectations and route incoming requests appropriately.
+
+![SLA Plans](screenshots/14-sla-plans-configured.png)
+
+![Help Topics](screenshots/15-help-topics-configured.png)
+
+### Password Reset Incident
+
+A password-related support request was documented through the complete ticket lifecycle, from creation to resolution.
+
+![Password Reset Ticket Opened](screenshots/17-password-reset-ticket-opened.png)
+
+![Password Reset Ticket Resolved](screenshots/18-password-reset-ticket-resolved.png)
+
+### Tier 1 Diagnosis and Tier 2 Escalation
+
+A network connectivity incident was diagnosed at Tier 1 and escalated to Tier 2 when additional troubleshooting was required.
+
+![Tier 1 Network Diagnosis](screenshots/19-network-ticket-tier1-diagnosis.png)
+
+![Ticket Escalated to Tier 2](screenshots/20-network-ticket-escalated-to-tier2.png)
+
+![Tier 2 Resolution](screenshots/21-network-ticket-resolved-by-tier2.png)
+
+### Help Desk Dashboard
+
+The final dashboard demonstrates the configured and operational ticketing environment.
+
+![Help Desk Dashboard](screenshots/24-helpdesk-ticket-dashboard.png)
 
 ## Key Takeaways
 
